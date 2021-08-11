@@ -1,8 +1,7 @@
 # !/usr/bin/python
 #  -*- coding: UTF-8 -*-
 import json
-import xlrd
-import xlwt
+import openpyxl
 import argparse
 import sys
 import os
@@ -13,29 +12,22 @@ import urllib
 today = time.strftime("%Y-%m-%d", time.localtime())
 
 
-workbook = xlrd.open_workbook('植物档案.xlsx')
+workbook = openpyxl.load_workbook('植物档案.xlsx')
 
-data = workbook.sheets()[0]
+data = workbook.active
 
-rowNum = data.nrows  # sheet行数
-colNum = data.ncols  # sheet列数
+rowNum = data.max_row  # sheet行数
+colNum = data.max_column   # sheet列数
 
 #  获取所有单元格的内容
 data_list = []
 for i in range(1, rowNum):
     rowlist = []
     for j in range(colNum):
-        ctype = data.cell(i, j).ctype
-        cell = data.cell_value(i, j)
-        if data.cell(i, j).ctype == 3:
-            dt = xlrd.xldate.xldate_as_tuple(data.cell_value(i, j), 0)
-            rowlist.append('%04d-%02d-%02d' % dt[0:3])
-            continue
-        if ctype == 2 and cell % 1 == 0.0:  # ctype为2且为浮点
-            cell = int(cell)
-            rowlist.append(cell)
-            continue
-        rowlist.append(data.cell_value(i, j))
+        cell = data.cell(i+1, j+1).value
+        if cell == None:
+            cell = ''
+        rowlist.append(cell)
     data_list.append(rowlist)
 
 

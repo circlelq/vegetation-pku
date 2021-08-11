@@ -55,9 +55,12 @@ height: 50
  content:" 花期3-4月，果期7-9月；",},
 {category:"地点",
  content:" 燕南园60号院；湖心岛；",},
+{category:"关系",
+ content:" 和金钟花很像",},
 
 ], 
-relationship:[], 
+relationship:[{ rela:"金钟花"},
+], 
 nums:[
 { num: 1 },
 { num: 2 },

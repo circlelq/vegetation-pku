@@ -26,6 +26,12 @@ Page({
 {name:"重瓣棣棠花"},
 {name:"流苏树"},
 {name:"抱茎小苦荬"},
+{name:"多花蔷薇"},
+{name:"虞美人"},
+{name:"菊花桃"},
+{name:"桃"},
+{name:"白花重瓣麦李"},
+{name:"白山桃"},
 ],
   },
    navbarTap: function (e) {

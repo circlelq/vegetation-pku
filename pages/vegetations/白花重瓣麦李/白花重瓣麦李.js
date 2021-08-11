@@ -1,40 +1,38 @@
 Page({ 
  data: {
-name:"金钟花",
- nameit:"Forsythia viridissima",
+name:"白花重瓣麦李",
+ nameit:"Cerasus glandulosa f. albo-plena Koehne",
 markers: [
 
-{iconPath: "https://7665-vegetation-9g07cn1j2fc808a2-1305114445.tcb.qcloud.la/%E9%87%91%E9%92%9F%E8%8A%B1.png",
+{iconPath: "https://7665-vegetation-9g07cn1j2fc808a2-1305114445.tcb.qcloud.la/%E7%99%BD%E8%8A%B1%E9%87%8D%E7%93%A3%E9%BA%A6%E6%9D%8E.png",
 id:"0",
-name:"金钟花",
-latitude:"39.991072",
-longitude:"116.309472",
+name:"白花重瓣麦李",
+latitude:"39.987269",
+longitude:"116.310341",
 width: 50,
 height: 50
 },
 ],
  items:[ 
 {category:"属",
- content:" 连翘属",},
+ content:" 樱属",},
 {category:"科",
- content:" 木犀科",},
+ content:" 蔷薇科",},
 {category:"目",
- content:" 捩花目",},
+ content:" 蔷薇目",},
 {category:"纲",
  content:" 双子叶植物纲",},
 {category:"门",
  content:" 被子植物门",},
 {category:"观赏时间",
- content:" 花期3-4月，果期8-11月。",},
+ content:" 花期3-4月。",},
 {category:"地点",
- content:" 图书馆南门南边；",},
-{category:"关系",
- content:" 和连翘很像",},
+ content:" 快递点；",},
 
 ], 
-relationship:[{ rela:"连翘"},
-], 
+relationship:[], 
 nums:[
+{ num: 1 },
 ],
 },
   previewImage: function (e) {

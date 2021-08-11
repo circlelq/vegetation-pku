@@ -6,35 +6,39 @@
   "setting": {
     "urlCheck": true,
     "es6": true,
+    "enhance": false,
     "postcss": true,
+    "preloadBackgroundData": false,
     "minified": true,
     "newFeature": true,
     "coverView": true,
+    "nodeModules": false,
     "autoAudits": false,
     "showShadowRootInWxmlPanel": true,
     "scopeDataCheck": false,
+    "uglifyFileName": false,
     "checkInvalidKey": true,
     "checkSiteMap": true,
     "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
     "useMultiFrameRuntime": true,
     "useApiHook": true,
+    "useApiHostProcess": false,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
       "outputPath": ""
     },
+    "enableEngineNative": false,
     "useIsolateContext": true,
-    "useCompilerModule": false,
-    "userConfirmedUseCompilerModuleSwitch": false,
     "userConfirmedBundleSwitch": false,
     "packNpmManually": false,
     "packNpmRelationList": [],
     "minifyWXSS": true,
-    "bundle": false,
-    "useApiHostProcess": false
+    "showES6CompileOption": false
   },
   "compileType": "miniprogram",
-  "libVersion": "2.8.1",
+  "libVersion": "2.18.1",
   "appid": "wxe1ea1ce23812cd73",
   "projectname": "vegetation",
   "debugOptions": {
@@ -43,6 +47,7 @@
   "isGameTourist": false,
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
+  "cloudfunctionTemplateRoot": "cloudfunctionTemplate",
   "condition": {
     "search": {
       "list": []

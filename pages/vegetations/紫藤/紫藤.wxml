@@ -1,5 +1,5 @@
 <view style="display:flex; justify-content:center; align-items:center;">
-  <image mode="widthFix" class="cat_image" src="cloud://vegetation-9g07cn1j2fc808a2.7665-vegetation-9g07cn1j2fc808a2-1305114445/{{name}}.jpg" data-src="cloud://vegetation-9g07cn1j2fc808a2.7665-vegetation-9g07cn1j2fc808a2-1305114445/{{name}}.jpg" bindtap='previewImage' style= "width: 90%;">
+  <image mode="widthFix" class="cat_image" src="cloud://vegetation-9g07cn1j2fc808a2.7665-vegetation-9g07cn1j2fc808a2-1305114445/{{name}}.jpg" data-src="cloud://vegetation-9g07cn1j2fc808a2.7665-vegetation-9g07cn1j2fc808a2-1305114445/{{name}}o.jpg" bindtap='previewImage' style= "width: 90%;">
   </image>
 </view>
 
@@ -21,13 +21,23 @@
 </view>
 </view>
 
+<view wx:if="{{relationship[0]}}" class = "itemname1">
+  <navigator  wx:for = "{{relationship}}" url="/pages/vegetations/{{item.rela}}/{{item.rela}}" >
+  <view style='flex-shrink:0; box-sizing:border-box; width:3rem; margin-right:1rem;'>
+    <image style="width:3rem;height:3rem;" src="cloud://vegetation-9g07cn1j2fc808a2.7665-vegetation-9g07cn1j2fc808a2-1305114445/{{name}}.png" ></image>
+    <view style="text-align: center;  color:#353535;" > \n {{item.rela}} </view>  
+  </view>
+  </navigator>
+</view>
 
-<text> \n </text>
+<view wx:if="{{nums[0]}}">
+<view class = "itemname1">点击图片查看高清图片</view>
+</view>
 
 <block wx:for="{{nums}}">
 
 <view style="display:flex; justify-content:center; align-items:center;">
-  <image mode="widthFix" class="cat_image" src="cloud://vegetation-9g07cn1j2fc808a2.7665-vegetation-9g07cn1j2fc808a2-1305114445/{{name}}{{item.num}}.jpg" data-src="cloud://vegetation-9g07cn1j2fc808a2.7665-vegetation-9g07cn1j2fc808a2-1305114445/{{name}}{{item.num}}.jpg" bindtap='previewImage' style= "width: 90%;">
+  <image mode="widthFix" class="cat_image" src="cloud://vegetation-9g07cn1j2fc808a2.7665-vegetation-9g07cn1j2fc808a2-1305114445/{{name}}{{item.num}}.jpg" data-src="cloud://vegetation-9g07cn1j2fc808a2.7665-vegetation-9g07cn1j2fc808a2-1305114445/{{name}}{{item.num}}o.jpg" bindtap='previewImage' style= "width: 90%;">
   </image>
 </view>
 
@@ -35,7 +45,7 @@
 
 </block>
 
-<text> \n </text>
+<view class = "itemname1">点击图标进入导航</view>
 
 <view style="display:flex; justify-content:center; align-items:center;">
 <map id="map" longitude="116.310694" latitude="39.992779" scale="15"  controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" subkey="44WBZ-WSY6W-OKPR3-R6STW-U6FMZ-YUB7B" show-compass="ture"show-scale = "ture"  bindmarkertap="markertap" bindregionchange="regionchange" show-location style="width: 90%; height: 500px;"></map>

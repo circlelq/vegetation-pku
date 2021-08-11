@@ -91,9 +91,12 @@ height: 50
  content:" 4月中旬至5月上旬",},
 {category:"地点",
  content:" 燕南食堂北侧的走廊，未名湖南，未名湖东北，红湖",},
+{category:"关系",
+ content:" 紫藤的茎左旋生长(从下往上向左旋转生长)，而多花紫藤则是向右转生长。",},
 
 ], 
-relationship:[], 
+relationship:[{ rela:"多花紫藤"},
+], 
 nums:[
 { num: 1 },
 { num: 2 },

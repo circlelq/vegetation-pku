@@ -42,11 +42,19 @@ circle 水平有限，如有信息错误欢迎大家批评指正，可以给 cir
 </view>
 
 <view class="head1">
-  位置信息
+  位置
 </view> 
 
 <view class="body">
   沙雕
+</view>
+
+<view class="head1">
+  鉴别
+</view> 
+
+<view class="body">
+  图图
 </view>
 
 <view class="head1">
@@ -71,7 +79,7 @@ circle 水平有限，如有信息错误欢迎大家批评指正，可以给 cir
 </view> -->
 
 <view  class = "logo">
-  <view bindtap="naviToMini" style='flex-shrink:0; box-sizing:border-box; width:3rem;'>
+  <view bindtap="bindweb" style='flex-shrink:0; box-sizing:border-box; width:3rem;'>
     <image style="width:3rem;height:3rem;" src="/pages/images/circle 2.png" ></image>
 
   </view>

@@ -9,7 +9,7 @@
 .itemname1 {
   font-size: 27rpx;
   margin-left: 40rpx;
-  margin-bottom: 30rpx;
+  margin-bottom: 10rpx;
   margin-top: 30rpx;
   display:flex;
   color:#888888;
@@ -59,7 +59,7 @@
   margin-left: 40rpx;
   margin-right: 40rpx;
   margin-bottom: 30rpx;
-  margin-top: 14rpx;
+  /* margin-top: 14rpx; */
   color:#353535;
   letter-spacing: 5rpx;
   line-height: 50rpx;
@@ -177,7 +177,7 @@
 .cat-card-it {
   font-size: 30rpx;
   color:black; 
-  margin-top: -20rpx;
+  margin-top: -10rpx;
   margin-left: 40rpx;
   /* font-weight:bold; */
   font-style: italic;

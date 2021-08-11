@@ -12,6 +12,24 @@ longitude:"116.311788",
 width: 50,
 height: 50
 },
+
+{iconPath: "https://7665-vegetation-9g07cn1j2fc808a2-1305114445.tcb.qcloud.la/%E7%B4%AB%E8%8D%86.png",
+id:"1",
+name:"紫荆",
+latitude:"39.989618",
+longitude:"116.30639",
+width: 50,
+height: 50
+},
+
+{iconPath: "https://7665-vegetation-9g07cn1j2fc808a2-1305114445.tcb.qcloud.la/%E7%B4%AB%E8%8D%86.png",
+id:"2",
+name:"紫荆",
+latitude:"39.997649",
+longitude:"116.309815",
+width: 50,
+height: 50
+},
 ],
  items:[ 
 {category:"属",

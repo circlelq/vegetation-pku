@@ -51,6 +51,7 @@ height: 50
 relationship:[], 
 nums:[
 { num: 1 },
+{ num: 2 },
 ],
 },
   previewImage: function (e) {
