@@ -2,6 +2,7 @@
   "pages": [
     "pages/index/index",
     "pages/about/about",
+    "pages/vegetations/山桃/山桃",
     "pages/logs/logs",
     "pages/map/map"
   ],

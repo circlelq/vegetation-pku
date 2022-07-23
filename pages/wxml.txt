@@ -1,30 +1,30 @@
 <view style="display:flex; justify-content:center; align-items:center;">
-  <image mode="widthFix" class="cat_image" src="cloud://vegetation-9g07cn1j2fc808a2.7665-vegetation-9g07cn1j2fc808a2-1305114445/{{name}}.jpg" data-src="cloud://vegetation-9g07cn1j2fc808a2.7665-vegetation-9g07cn1j2fc808a2-1305114445/{{name}}o.jpg" bindtap='previewImage' style= "width: 90%;">
+  <image mode="widthFix" class="cat_image" src="https://vegetation-pku-1257850266.cos.ap-nanjing.myqcloud.com/{{name}}.jpg" data-src="https://vegetation-pku-1257850266.cos.ap-nanjing.myqcloud.com/{{name}}o.jpg" bindtap='previewImage' style= "width: 90%;">
   </image>
 </view>
 
 
 <view class = "itemname1">
-    <view class= "cat-card">{{name}} </view> 
+    <view class= "cat-card"><text user-select="true">{{name}} </text></view> 
 </view>
 <view class = "ita">
-    <view class= "cat-card-it">{{nameit}}</view>
+    <view class= "cat-card-it"><text user-select="true">{{nameit}}</text></view>
 </view>
 
 
 <view class = "itemname1">
 <view wx:for = "{{items}}">
   <view style='flex-shrink:0; box-sizing:border-box; width:350rpx;'>
-    {{item.category}}
+    <text user-select="true">{{item.category}}</text>
   </view>
-  <view class = "itemname2">{{item.content}}</view>
+  <view class = "itemname2"><text user-select="true">{{item.content}}</text></view>
 </view>
 </view>
 
 <view wx:if="{{relationship[0]}}" class = "itemname1">
   <navigator  wx:for = "{{relationship}}" url="/pages/vegetations/{{item.rela}}/{{item.rela}}" >
   <view style='flex-shrink:0; box-sizing:border-box; width:3rem; margin-right:1rem;'>
-    <image style="width:3rem;height:3rem;" src="cloud://vegetation-9g07cn1j2fc808a2.7665-vegetation-9g07cn1j2fc808a2-1305114445/{{name}}.png" ></image>
+    <image style="width:3rem;height:3rem;" src="https://vegetation-pku-1257850266.cos.ap-nanjing.myqcloud.com/{{name}}.png" ></image>
     <view style="text-align: center;  color:#353535;" > \n {{item.rela}} </view>  
   </view>
   </navigator>
@@ -37,7 +37,7 @@
 <block wx:for="{{nums}}">
 
 <view style="display:flex; justify-content:center; align-items:center;">
-  <image mode="widthFix" class="cat_image" src="cloud://vegetation-9g07cn1j2fc808a2.7665-vegetation-9g07cn1j2fc808a2-1305114445/{{name}}{{item.num}}.jpg" data-src="cloud://vegetation-9g07cn1j2fc808a2.7665-vegetation-9g07cn1j2fc808a2-1305114445/{{name}}{{item.num}}o.jpg" bindtap='previewImage' style= "width: 90%;">
+  <image mode="widthFix" class="cat_image" src="https://vegetation-pku-1257850266.cos.ap-nanjing.myqcloud.com/{{name}}{{item.num}}.jpg" data-src="https://vegetation-pku-1257850266.cos.ap-nanjing.myqcloud.com/{{name}}{{item.num}}o.jpg" bindtap='previewImage' style= "width: 90%;">
   </image>
 </view>
 

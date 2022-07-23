@@ -2,7 +2,7 @@
   flex: none;
   display: flex;
   background: #fff;
-  margin-top: 20rpx;
+  margin-top: 0rpx;
   /* margin-bottom: 30rpx; */
 }
 .navbar .item{
