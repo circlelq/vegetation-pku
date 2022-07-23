@@ -1,0 +1,22 @@
+{
+  "name": "vegetation-pku",
+  "version": "1.0.0",
+  "description": "燕园草木小程序",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/circlelq/vegetation-pku.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/circlelq/vegetation-pku/issues"
+  },
+  "homepage": "https://github.com/circlelq/vegetation-pku#readme",
+  "dependencies": {
+    "@alicloud/mpserverless-sdk": "3.1"
+  }
+}

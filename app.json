@@ -2,7 +2,7 @@
   "pages": [
     "pages/index/index",
     "pages/about/about",
-    "pages/vegetations/山桃/山桃",
+    "pages/vegetation/vegetation",
     "pages/logs/logs",
     "pages/map/map"
   ],
@@ -31,6 +31,7 @@
         "pagePath": "pages/about/about"
       }
     ]
-  }
+  },
+  "lazyCodeLoading": "requiredComponents"
 
 }

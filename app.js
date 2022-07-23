@@ -1,6 +1,25 @@
+import MPServerless from '@alicloud/mpserverless-sdk';
+const mpServerless = new MPServerless({
+  uploadFile: wx.uploadFile,
+  request: wx.request,
+  getAuthCode: wx.login,
+  getFileInfo: wx.getFileInfo,
+  getImageInfo: wx.getImageInfo,
+}, {
+ appId: 'wxe1ea1ce23812cd73',
+  spaceId: 'mp-1dca94ec-a727-4ec3-85a5-fe2b9e4cbdcd',
+  clientSecret: 'dtm04jkG302vz54XGXV5zQ==',
+  endpoint: 'https://api.next.bspapp.com',
+});
+
 //app.js
 App({
-  onLaunch: function () {
+  onLaunch: async function () {
+
+    await mpServerless.user.authorize({
+      authProvider: 'wechat_openapi',
+    });
+
     if (wx.canIUse('getUpdateManager')) {
       const updateManager = wx.getUpdateManager()
       updateManager.onCheckForUpdate(function (res) {
@@ -62,6 +81,7 @@ App({
     //   }
     // })
   },
+  mpServerless,
 
 
 })
@@ -71,4 +91,3 @@ wx.showShareMenu({
   menus: ['shareAppMessage', 'shareTimeline'],
 })
 
-wx.setInnerAudioOption({ obeyMuteSwitch: false });

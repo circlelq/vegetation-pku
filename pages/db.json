@@ -1,0 +1,576 @@
+{
+	"name": "山桃",
+	"latin": "Amygdalus davidiana",
+	"photos": 2,
+	"Genus": "桃属",
+	"Family": "蔷薇科",
+	"Order": "蔷薇目",
+	"Class": "双子叶植物纲",
+	"Phylum": "被子植物门",
+	"viewingTime": "3-4月",
+	"places": "三教",
+	"markers": {
+		"0": {
+			"coordinates": ["116.314021", "39.988859"],
+			"type": "Point"
+		},
+		"1": {
+			"coordinates": ["116.308056", "39.991313"],
+			"type": "Point"
+		},
+		"2": {
+			"coordinates": ["116.308098", "39.991346"],
+			"type": "Point"
+		}
+	}
+} {
+	"name": "狗尾草",
+	"latin": "Setaria viridis",
+	"photos": 0,
+	"Genus": "狗尾草属",
+	"Family": "禾本科",
+	"Order": "禾本目",
+	"Class": "单子叶植物纲",
+	"Phylum": "被子植物门"
+} {
+	"name": "秋英",
+	"latin": "Cosmos bipinnata",
+	"photos": 0,
+	"Genus": "秋英属",
+	"Family": "菊科",
+	"Order": "桔梗目",
+	"Class": "双子叶植物纲",
+	"Phylum": "被子植物门",
+	"places": "154号院",
+	"markers": {
+		"0": {
+			"coordinates": ["116.310174", "39.997202"],
+			"type": "Point"
+		}
+	}
+} {
+	"name": "紫藤",
+	"latin": "Wisteria sinensis",
+	"photos": 2,
+	"Genus": "紫藤属",
+	"Family": "豆科",
+	"Order": "豆目",
+	"Class": "双子叶植物纲",
+	"Phylum": "被子植物门",
+	"viewingTime": "4月中旬至5月上旬",
+	"places": "燕南食堂北侧的走廊，未名湖南，未名湖东北，红湖",
+	"markers": {
+		"0": {
+			"coordinates": ["116.308628", "39.991674"],
+			"type": "Point"
+		},
+		"1": {
+			"coordinates": ["116.308641", "39.992149"],
+			"type": "Point"
+		},
+		"2": {
+			"coordinates": ["116.307637", "39.992119"],
+			"type": "Point"
+		},
+		"3": {
+			"coordinates": ["116.307637", "39.991603"],
+			"type": "Point"
+		},
+		"4": {
+			"coordinates": ["116.307636", "39.991219"],
+			"type": "Point"
+		},
+		"5": {
+			"coordinates": ["116.3096", "39.993888"],
+			"type": "Point"
+		},
+		"6": {
+			"coordinates": ["116.309634", "39.987951"],
+			"type": "Point"
+		},
+		"7": {
+			"coordinates": ["116.310115", "39.990854"],
+			"type": "Point"
+		}
+	},
+	"relation": "紫藤的茎左旋生长(从下往上向左旋转生长)，而多花紫藤则是向右转生长。"
+} {
+	"name": "多花紫藤",
+	"latin": "Wisteria floribunda",
+	"photos": 2,
+	"Genus": "紫藤属",
+	"Family": "豆科",
+	"Order": "豆目",
+	"Class": "双子叶植物纲",
+	"Phylum": "被子植物门",
+	"viewingTime": "4月中旬至5月上旬",
+	"places": "静园四院",
+	"markers": {
+		"0": {
+			"coordinates": ["116.308581", "39.991174"],
+			"type": "Point"
+		}
+	},
+	"relation": "紫藤的茎左旋生长(从下往上向左旋转生长)，而多花紫藤则是向右转生长。"
+} {
+	"name": "迎春花",
+	"latin": "Jasminum nudiflorum",
+	"photos": 1,
+	"Genus": "素馨属",
+	"Family": "木犀科",
+	"Order": "捩花目",
+	"Class": "双子叶植物纲",
+	"Phylum": "被子植物门",
+	"viewingTime": "2-4月",
+	"places": "广泛栽培；",
+	"markers": {
+		"0": {
+			"coordinates": ["116.306572", "39.990369"],
+			"type": "Point"
+		},
+		"1": {
+			"coordinates": ["116.307656", "39.99406"],
+			"type": "Point"
+		}
+	}
+} {
+	"name": "蒲公英",
+	"latin": "Taraxacum mongolicum",
+	"photos": 1,
+	"Genus": "蒲公英属",
+	"Family": "菊科",
+	"Order": "桔梗目",
+	"Class": "双子叶植物纲",
+	"Phylum": "被子植物门",
+	"viewingTime": "花期4-9月，果期5-10月",
+	"places": "广泛栽培；"
+} {
+	"name": "连翘",
+	"latin": "Forsythia suspensa",
+	"photos": 2,
+	"Genus": "连翘属",
+	"Family": "木犀科",
+	"Order": "捩花目",
+	"Class": "双子叶植物纲",
+	"Phylum": "被子植物门",
+	"viewingTime": "花期3-4月，果期7-9月；",
+	"places": "燕南园60号院；湖心岛；",
+	"markers": {
+		"0": {
+			"coordinates": ["116.312111", "39.989278"],
+			"type": "Point"
+		},
+		"1": {
+			"coordinates": ["116.309278", "39.989888"],
+			"type": "Point"
+		},
+		"2": {
+			"coordinates": ["116.309114", "39.995144"],
+			"type": "Point"
+		},
+		"3": {
+			"coordinates": ["116.309055", "39.994942"],
+			"type": "Point"
+		}
+	},
+	"relation": "和金钟花很像"
+} {
+	"name": "蜡梅",
+	"latin": "Chimonanthus praecox",
+	"photos": 0,
+	"Genus": "蜡梅属",
+	"Family": "蜡梅科",
+	"Order": "樟目",
+	"Class": "双子叶植物纲",
+	"Phylum": "被子植物门",
+	"viewingTime": "花期11月至翌年3月，果期4-11月；",
+	"places": "南阁南边",
+	"markers": {
+		"0": {
+			"coordinates": ["116.307503", "39.992606"],
+			"type": "Point"
+		}
+	}
+} {
+	"name": "杏",
+	"latin": "Armeniaca vulgaris",
+	"photos": 0,
+	"Genus": "杏属",
+	"Family": "蔷薇科",
+	"Order": "蔷薇目",
+	"Class": "双子叶植物纲",
+	"Phylum": "被子植物门",
+	"viewingTime": "花期3-4月；果 6-7月成熟。"
+} {
+	"name": "西府海棠",
+	"latin": "Malus × micromalus",
+	"photos": 3,
+	"Genus": "苹果属",
+	"Family": "蔷薇科",
+	"Order": "蔷薇目",
+	"Class": "双子叶植物纲",
+	"Phylum": "被子植物门",
+	"viewingTime": "花期4-5月，果期8-9月。",
+	"places": "地学楼南；34楼东；",
+	"markers": {
+		"0": {
+			"coordinates": ["116.311975", "39.991604"],
+			"type": "Point"
+		},
+		"1": {
+			"coordinates": ["116.310364", "39.986982"],
+			"type": "Point"
+		}
+	}
+} {
+	"name": "珍珠绣线菊",
+	"latin": "Spiraea thunbergii",
+	"photos": 1,
+	"Genus": "绣线菊属",
+	"Family": "蔷薇科",
+	"Order": "蔷薇目",
+	"Class": "双子叶植物纲",
+	"Phylum": "被子植物门",
+	"viewingTime": "花期4-5月，果期7月。",
+	"places": "未名湖北边；静园；",
+	"markers": {
+		"0": {
+			"coordinates": ["116.310143", "39.995591"],
+			"type": "Point"
+		},
+		"1": {
+			"coordinates": ["116.30798", "39.991813"],
+			"type": "Point"
+		},
+		"2": {
+			"coordinates": ["116.307976", "39.991469"],
+			"type": "Point"
+		}
+	}
+} {
+	"name": "早开堇菜",
+	"latin": "Viola prionantha",
+	"photos": 1,
+	"Genus": "堇菜属",
+	"Family": "堇菜科",
+	"Order": "侧膜胎座目",
+	"Class": "双子叶植物纲",
+	"Phylum": "被子植物门",
+	"viewingTime": "花果期4月上中旬至9月。",
+	"places": "南北阁西边草坪；",
+	"markers": {
+		"0": {
+			"coordinates": ["116.306876", "39.99276"],
+			"type": "Point"
+		}
+	}
+} {
+	"name": "紫荆",
+	"latin": "Cercis chinensis",
+	"photos": 1,
+	"Genus": "紫荆属",
+	"Family": "豆科",
+	"Order": "豆目",
+	"Class": "双子叶植物纲",
+	"Phylum": "被子植物门",
+	"viewingTime": "花期3-4月；果期8-10月。",
+	"places": "标本馆；广泛栽培；",
+	"markers": {
+		"0": {
+			"coordinates": ["116.311788", "39.992793"],
+			"type": "Point"
+		},
+		"1": {
+			"coordinates": ["116.30639", "39.989618"],
+			"type": "Point"
+		},
+		"2": {
+			"coordinates": ["116.309815", "39.997649"],
+			"type": "Point"
+		}
+	}
+} {
+	"name": "黄刺玫",
+	"latin": "Rosa xanthina",
+	"photos": 1,
+	"Genus": "蔷薇属 ",
+	"Family": "蔷薇科",
+	"Order": "蔷薇目",
+	"Class": "双子叶植物纲",
+	"Phylum": "被子植物门",
+	"viewingTime": "花期4-6月，果期7-8月。",
+	"places": "广泛栽培；",
+	"markers": {
+		"0": {
+			"coordinates": ["116.30759", "39.994196"],
+			"type": "Point"
+		}
+	}
+} {
+	"name": "诸葛菜",
+	"latin": "Orychophragmus violaceus",
+	"photos": 2,
+	"Genus": "诸葛菜属",
+	"Family": "十字花科",
+	"Order": "罂粟目",
+	"Class": "双子叶植物纲",
+	"Phylum": "被子植物门",
+	"viewingTime": "花期4-5月，果期5-6月。",
+	"places": "统战部；广泛栽培；",
+	"markers": {
+		"0": {
+			"coordinates": ["116.309748", "39.990096"],
+			"type": "Point"
+		}
+	}
+} {
+	"name": "东京樱花",
+	"latin": "Cerasus yedoensis",
+	"photos": 2,
+	"Genus": "樱属",
+	"Family": "蔷薇科",
+	"Order": "蔷薇目",
+	"Class": "双子叶植物纲",
+	"Phylum": "被子植物门",
+	"viewingTime": "花期4月，果期5月。",
+	"places": "塞万提斯像旁边；",
+	"markers": {
+		"0": {
+			"coordinates": ["116.306304", "39.992935"],
+			"type": "Point"
+		}
+	}
+} {
+	"name": "金钟花",
+	"latin": "Forsythia viridissima",
+	"photos": 0,
+	"Genus": "连翘属",
+	"Family": "木犀科",
+	"Order": "捩花目",
+	"Class": "双子叶植物纲",
+	"Phylum": "被子植物门",
+	"viewingTime": "花期3-4月，果期8-11月。",
+	"places": "图书馆南门南边；",
+	"markers": {
+		"0": {
+			"coordinates": ["116.309472", "39.991072"],
+			"type": "Point"
+		}
+	},
+	"relation": "和连翘很像"
+} {
+	"name": "德国鸢尾",
+	"latin": "Iris germanica",
+	"photos": 0,
+	"Genus": "鸢尾属",
+	"Family": "鸢尾科",
+	"Order": "百合目",
+	"Class": "单子叶植物纲",
+	"Phylum": "被子植物门",
+	"viewingTime": "花期4-5月，果期6-8月。",
+	"places": "二体西南边；",
+	"markers": {
+		"0": {
+			"coordinates": ["116.30783", "39.990562"],
+			"type": "Point"
+		}
+	}
+} {
+	"name": "白鹃梅",
+	"latin": "Exochorda racemosa",
+	"photos": 1,
+	"Genus": "白鹃梅属",
+	"Family": "蔷薇科",
+	"Order": "蔷薇目",
+	"Class": "双子叶植物纲",
+	"Phylum": "被子植物门",
+	"viewingTime": "花期5月，果期6-8月。",
+	"places": "静园南；",
+	"markers": {
+		"0": {
+			"coordinates": ["116.308109", "39.991112"],
+			"type": "Point"
+		}
+	}
+} {
+	"name": "牡丹",
+	"latin": "Paeonia suffruticosa",
+	"photos": 2,
+	"Genus": "芍药属",
+	"Family": "毛茛科",
+	"Order": "毛茛目",
+	"Class": "双子叶植物纲",
+	"Phylum": "被子植物门",
+	"viewingTime": "花期5月；果期6月。",
+	"places": "燕南园60号（工学院）；二教西边；静园北边；",
+	"markers": {
+		"0": {
+			"coordinates": ["116.312831", "39.989049"],
+			"type": "Point"
+		},
+		"1": {
+			"coordinates": ["116.308016", "39.992006"],
+			"type": "Point"
+		},
+		"2": {
+			"coordinates": ["116.309179", "39.989734"],
+			"type": "Point"
+		}
+	}
+} {
+	"name": "美洲稠李",
+	"latin": "Prunus virginiana",
+	"photos": 2,
+	"Genus": "稠李属",
+	"Family": "蔷薇科",
+	"Order": "蔷薇目",
+	"Class": "双子叶植物纲",
+	"Phylum": "被子植物门",
+	"viewingTime": "花期4月下旬至5月。",
+	"places": "静园；",
+	"markers": {
+		"0": {
+			"coordinates": ["116.307988", "39.99186"],
+			"type": "Point"
+		}
+	}
+} {
+	"name": "重瓣棣棠花",
+	"latin": "Kerria japonica f. pleniflora",
+	"photos": 0,
+	"Genus": "棣棠花属",
+	"Family": "蔷薇科",
+	"Order": "蔷薇目",
+	"Class": "双子叶植物纲",
+	"Phylum": "被子植物门",
+	"viewingTime": "花期4月至5月。",
+	"places": "广泛栽培；"
+} {
+	"name": "流苏树",
+	"latin": "Chionanthus retusus",
+	"photos": 2,
+	"Genus": "流苏树属",
+	"Family": "木犀科",
+	"Order": "捩花目",
+	"Class": "双子叶植物纲",
+	"Phylum": "被子植物门",
+	"viewingTime": "花期3-6月，果期6-11月。",
+	"places": "静园；塞万提斯像旁；",
+	"markers": {
+		"0": {
+			"coordinates": ["116.308049", "39.991209"],
+			"type": "Point"
+		}
+	}
+} {
+	"name": "抱茎小苦荬",
+	"latin": "xeridium sonchifolium",
+	"photos": 2,
+	"Genus": "小苦荬属",
+	"Family": "菊科",
+	"Order": "桔梗目",
+	"Class": "双子叶植物纲",
+	"Phylum": "被子植物门",
+	"viewingTime": "3-5月开花结果。",
+	"places": "广泛栽培；",
+	"markers": {
+		"0": {
+			"coordinates": ["116.307449", "39.98998"],
+			"type": "Point"
+		}
+	}
+} {
+	"name": "多花蔷薇",
+	"latin": "Rosa multiflora",
+	"photos": 1,
+	"Genus": "蔷薇属",
+	"Family": "蔷薇科",
+	"Order": "蔷薇目",
+	"Class": "双子叶植物纲",
+	"Phylum": "被子植物门",
+	"viewingTime": "花期7月。",
+	"markers": {
+		"0": {
+			"coordinates": ["116.308444", "39.989759"],
+			"type": "Point"
+		}
+	}
+} {
+	"name": "虞美人",
+	"latin": "Papaver rhoeas",
+	"photos": 2,
+	"Genus": "罂粟属",
+	"Family": "罂粟科",
+	"Order": "罂粟目",
+	"Class": "双子叶植物纲",
+	"Phylum": "被子植物门",
+	"viewingTime": "花果期3-8月。",
+	"places": "电教西边花坛；",
+	"markers": {
+		"0": {
+			"coordinates": ["116.311398", "39.989751"],
+			"type": "Point"
+		}
+	}
+} {
+	"name": "菊花桃",
+	"latin": "Amygdalus persica 'Juhuatao'",
+	"photos": 1,
+	"Genus": "桃属",
+	"Family": "蔷薇科",
+	"Order": "蔷薇目",
+	"Class": "双子叶植物纲",
+	"Phylum": "被子植物门",
+	"viewingTime": "花期3至4月。"
+} {
+	"name": "桃",
+	"latin": "Amygdalus persica L.",
+	"photos": 2,
+	"Genus": "桃属",
+	"Family": "蔷薇科",
+	"Order": "蔷薇目",
+	"Class": "双子叶植物纲",
+	"Phylum": "被子植物门",
+	"viewingTime": "花期3-4月。",
+	"places": "静园；",
+	"markers": {
+		"0": {
+			"coordinates": ["116.308076", "39.991337"],
+			"type": "Point"
+		}
+	}
+} {
+	"name": "白花重瓣麦李",
+	"latin": "Cerasus glandulosa f. albo-plena Koehne",
+	"photos": 1,
+	"Genus": "樱属",
+	"Family": "蔷薇科",
+	"Order": "蔷薇目",
+	"Class": "双子叶植物纲",
+	"Phylum": "被子植物门",
+	"viewingTime": "花期3-4月。",
+	"places": "快递点；",
+	"markers": {
+		"0": {
+			"coordinates": ["116.310341", "39.987269"],
+			"type": "Point"
+		}
+	}
+} {
+	"name": "白山桃",
+	"latin": "Amygdalus davidiana f. alba (Carr.) Rehd.",
+	"photos": 0,
+	"Genus": "桃属",
+	"Family": "蔷薇科",
+	"Order": "蔷薇目",
+	"Class": "双子叶植物纲",
+	"Phylum": "被子植物门",
+	"viewingTime": "花期3-4月，果期7-8月。",
+	"places": "国际关系学院；",
+	"markers": {
+		"0": {
+			"coordinates": ["116.307244", "39.991402"],
+			"type": "Point"
+		}
+	}
+}

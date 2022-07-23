@@ -11,12 +11,12 @@
   <view class="divLineLong"></view>
 </view>
 
-<block wx:for="{{vege_list}}">
-  <navigator url="/pages/vegetations/{{item.name}}/{{item.name}}" >
+<block wx:for="{{vegetation}}" wx:key="_id">
+  <view bindtap="clickVegetation" data-vegetation_id='{{item._id}}'>
     <view class="catitem">
       <image  class = 'avator ' src="https://vegetation-pku-1257850266.cos.ap-nanjing.myqcloud.com/{{item.name}}.png" mode='aspectFill' ></image>
       <view class= "cat-name">{{item.name}}</view> 
     </view>
     <view class="divLine"></view>
-  </navigator>  
+  </view>
 </block>
