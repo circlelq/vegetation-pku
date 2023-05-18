@@ -83,6 +83,9 @@ App({
   },
   mpServerless,
 
+  globalData: {
+    url: "https://vegetation-pku-1257850266.cos.ap-nanjing.myqcloud.com/",
+  },
 
 })
 

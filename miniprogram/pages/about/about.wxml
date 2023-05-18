@@ -15,10 +15,21 @@ circle 水平有限，如有信息错误欢迎大家批评指正，可以给 cir
 </view> 
 
 <view class="body">
-小程序所有代码，图片和植物档案开源，使用 MIT License 。<text bindtap="copy2" class="copy">点击</text>复制 GitHub 仓库链接后请在浏览器中粘贴打开，更多说明请点击下方头像查看相关推送。
+小程序所有代码，图片和植物档案开源，使用 MIT License 。<text bindtap="copy2" class="copy">点击</text>复制 Gitee 仓库链接后请在浏览器中粘贴打开，更多说明请点击下方头像查看相关推送。
 </view> 
 
 <text> \n </text>
+
+<view  class = "logo">
+  <view bindtap="bindweb" style='flex-shrink:0; box-sizing:border-box; width:3rem;'>
+    <image style="width:3rem;height:3rem;" src="/pages/images/circle 2.png" ></image>
+
+  </view>
+</view>
+
+<text> \n </text>
+
+<view class="staff">© 2023 circle</view>
 
 
 </view>
@@ -78,16 +89,6 @@ circle 水平有限，如有信息错误欢迎大家批评指正，可以给 cir
 
 </view> -->
 
-<view  class = "logo">
-  <view bindtap="bindweb" style='flex-shrink:0; box-sizing:border-box; width:3rem;'>
-    <image style="width:3rem;height:3rem;" src="/pages/images/circle 2.png" ></image>
-
-  </view>
-</view>
-
-<text> \n </text>
-
-<view class="staff">© 2022 circle</view>
 
 
 

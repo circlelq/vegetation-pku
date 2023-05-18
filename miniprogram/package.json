@@ -1,7 +1,7 @@
 {
-  "name": "vegetation-pku",
+  "name": "miniprogram",
   "version": "1.0.0",
-  "description": "燕园草木小程序",
+  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/circlelq/vegetation-pku#readme",
   "dependencies": {
-    "@alicloud/mpserverless-sdk": "3.1"
+    "@alicloud/mpserverless-sdk": "^3.1.4"
   }
 }

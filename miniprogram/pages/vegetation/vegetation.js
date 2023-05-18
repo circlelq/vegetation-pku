@@ -5,74 +5,70 @@ Page({
   data: {
     vegetation: {},
     markers: [],
-    // relationship:[{ rela:"紫藤"},], 
-    photoNums: [],
+    url: app.globalData.url,
   },
 
 
   /**
  * 生命周期函数--监听页面加载
  */
-onLoad: function (options) {
-  vegetation_id = options.vegetation_id;
-  app.mpServerless.db.collection('vegetation').find(
-    {
-      _id: vegetation_id,
-    },
-    {}
-  ).then(res => {
-    console.log(res)
-      this.setData({
-        vegetation: res.result[0],
-        photoscr: "https://vegetation-pku-1257850266.cos.ap-nanjing.myqcloud.com/" + res.result[0].name + ".png"
-      });
-    }).then(res => {
-    var number = 0
-    var photoNum = 0
-    for(var j in this.data.vegetation.photos){
-      var photoNum = {
-        num: photoNum
-      }
-      this.setData({
-        photoNums: this.data.photoNums.concat(photoNum),
-      });
-      number++
-    }
-    
-    for (var i in this.data.vegetation.markers) {
-      var marker = [
-        {
-          iconPath: "https://vegetation-pku-1257850266.cos.ap-nanjing.myqcloud.com/" + encodeURIComponent(this.data.vegetation.name) + ".png",
-          latitude: this.data.vegetation.markers[i].coordinates[1],
-          longitude: this.data.vegetation.markers[i].coordinates[0],
-          width: 50,
-          height: 50,
-          id: number,
+  onLoad: function (options) {
+    vegetation_id = options.vegetation_id;
+    app.mpServerless.db.collection('vegetation').find(
+      {
+        _id: vegetation_id,
+      }, {}).then(res => {
+        console.log(res)
+        this.setData({
+          vegetation: res.result[0],
+        });
+      }).then(res => {
+        if (this.data.vegetation.photos > 0) {
+          var photoArray = []
+          for (var photoNum = 1; photoNum <= this.data.vegetation.photos; ++photoNum) {
+            photoArray = photoArray.concat(photoNum)
+            this.setData({
+              photoArray: photoArray,
+            });
+          }
         }
-      ]
-      this.setData({
-        markers: this.data.markers.concat(marker),
+        console.log(this.data.vegetation.markers)
+        var number = 0
+        if (this.data.vegetation.markers !== {}) {
+          for (var i in this.data.vegetation.markers) {
+            console.log(this.data.vegetation.markers[i])
+            var marker = [
+              {
+                iconPath: this.data.url + encodeURIComponent(this.data.vegetation.name) + ".png",
+                latitude: this.data.vegetation.markers[i].coordinates[1],
+                longitude: this.data.vegetation.markers[i].coordinates[0],
+                width: 50,
+                height: 50,
+                id: number,
+              }
+            ]
+            this.setData({
+              markers: this.data.markers.concat(marker),
+            });
+            number++
+          }
+        }
       });
-      number++
-    }
-  });
-},
+  },
 
-includePointsOne() {
-  const mapCtx = wx.createMapContext('map', this);
-  mapCtx.includePoints({
-    padding: [60, 36, 0, 36],
-    points: this.data.markers,
-    success: res => {
-      console.log('includePoints success');
-    },
-    fail: err => {
-      console.log('includePoints fail', err);
-    }
-  });
-},
-
-
+  includePointsOne() {
+    const mapCtx = wx.createMapContext('map', this);
+    mapCtx.includePoints({
+      padding: [60, 36, 0, 36],
+      points: this.data.markers,
+      success: res => {
+        console.log('includePoints success');
+      },
+      fail: err => {
+        console.log('includePoints fail', err);
+      }
+    });
+  },
 
   previewImage: function (e) {
     let that = this;
@@ -97,79 +93,6 @@ includePointsOne() {
 
       }
     }
-  },
-
-  //音频播放  
-  audioPlay(e) {
-    var that = this,
-      id = e.currentTarget.dataset.id,
-      key = e.currentTarget.dataset.key,
-      audioArr = that.data.audioArr;
-
-    //设置状态
-    audioArr.forEach((v, i, array) => {
-      v.bl = false;
-      if (i == key) {
-        v.bl = true;
-      }
-    })
-    that.setData({
-      audioArr: audioArr,
-      audKey: key,
-    })
-
-    myaudio.autoplay = true;
-    var audKey = that.data.audKey,
-      vidSrc = audioArr[audKey].src;
-    myaudio.src = vidSrc;
-
-    myaudio.play();
-
-    //开始监听
-    myaudio.onPlay(() => {
-      console.log('开始播放');
-    })
-
-    //结束监听
-    myaudio.onEnded(() => {
-      console.log('自动播放完毕');
-      audioArr[key].bl = false;
-      that.setData({
-        audioArr: audioArr,
-      })
-    })
-
-    //错误回调
-    myaudio.onError((err) => {
-      console.log(err);
-      audioArr[key].bl = false;
-      that.setData({
-        audioArr: audioArr,
-      })
-      return
-    })
-
-  },
-
-  // 音频停止
-  audioStop(e) {
-    var that = this,
-      key = e.currentTarget.dataset.key,
-      audioArr = that.data.audioArr;
-    //设置状态
-    audioArr.forEach((v, i, array) => {
-      v.bl = false;
-    })
-    that.setData({
-      audioArr: audioArr
-    })
-
-    myaudio.stop();
-
-    //停止监听
-    myaudio.onStop(() => {
-      console.log('停止播放');
-    })
   },
 
   onPullDownRefresh: function () {
@@ -209,7 +132,4 @@ includePointsOne() {
       }
     }
   },
-
 })
-
-

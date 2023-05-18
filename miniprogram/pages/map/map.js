@@ -6,7 +6,8 @@ Page({
   data: {
     markers: [
     ],
-    allVegetation: {}
+    allVegetation: {},
+    url: app.globalData.url
   },
   regionchange(e) {
     console.log(e.type)
@@ -48,7 +49,7 @@ Page({
       for (var i in this.data.allVegetation[vegetationNum].markers) {
         var marker = [
           {
-            iconPath: "https://vegetation-pku-1257850266.cos.ap-nanjing.myqcloud.com/" + encodeURIComponent(this.data.allVegetation[vegetationNum].name) + ".png",
+            iconPath: this.data.url + encodeURIComponent(this.data.allVegetation[vegetationNum].name) + ".png",
             latitude: this.data.allVegetation[vegetationNum].markers[i].coordinates[1],
             longitude: this.data.allVegetation[vegetationNum].markers[i].coordinates[0],
             joinCluster: true,

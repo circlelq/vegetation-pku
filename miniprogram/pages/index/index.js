@@ -4,6 +4,7 @@ Page({
   data: {
     vegetation: [
     ],
+    url: app.globalData.url
   },
 
   /**
